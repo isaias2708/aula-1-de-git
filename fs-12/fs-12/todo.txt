@@ -1,0 +1,23 @@
+Vamos aprender Flexbox:
+    - Display: flex; ok
+    - Flex-direction ok
+    - Justify-content ok
+    - Flex-wrap ok
+    - Align-items ok
+    - Flex-flow ok
+    - Align-content ok
+    - Gap, row-gap, column-gap ok
+
+    - Items properties:
+        - order // ordem dos elementos ok
+        - flex-grow // aumenta o tamanho do elemento proporcionalmente para ocupar o espaço disponível
+        - flex-shrink // diminui o tamanho do elemento proporcionalmente para caber no espaço disponível
+        - flex-basis // largura inicial do elemento
+        - flex // junção do flex-grow, flex-shrink e flex-basis
+        - align-self // alinha o elemento
+
+    - Responsividade 
+    
+
+
+https://www.figma.com/community

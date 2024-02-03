@@ -1,0 +1,113 @@
+/* https://colorhunt.co/palette/0f0e0e5412128b9a46eeeeee */ 
+:root { 
+    --main-bg-color: #efe7e7; 
+    --bg-green: #8B9A46; 
+    --bg-red: #541212; 
+    --bg-black: #0F0E0E; 
+    --text-size-box: 80px; 
+} 
+ 
+* { 
+    box-sizing: border-box; 
+} 
+ 
+body { 
+    background-color: var(--main-bg-color); 
+    font-family: 'Roboto', sans-serif; 
+} 
+ 
+h1 { 
+    font-size: 42px; 
+} 
+ 
+/* Seção inicial */ 
+.container-1 { 
+    height: 60vh; 
+    width: 100%; 
+    padding: 15px; 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 100px; 
+    background-color: var(--bg-black); 
+} 
+ 
+.bloco-banner { 
+    height: 50vh; 
+    width: 50vh; 
+    border-radius: 16px; 
+    text-align: center; 
+    font-size: var(--text-size-box); 
+    font-weight: 300; 
+    color: #fff; 
+} 
+ 
+.bloco-green { 
+    background-color: var(--bg-green); 
+} 
+ 
+.bloco-red { 
+    background-color: var(--bg-red); 
+} 
+ 
+/* Seção nosso time */ 
+.container-2 { 
+    width: 100%; 
+    padding: 15px; 
+    display: flex; 
+    flex-direction: column; 
+    gap: 10px 
+} 
+ 
+.container-2-titulo { 
+    display: flex; 
+    justify-content: center; 
+} 
+ 
+.container-2-time { 
+    display: flex; 
+    justify-content: space-around; 
+} 
+ 
+.img-membro-time { 
+    height: 30vh; 
+    width: 30vh; 
+} 
+ 
+.container-membro-time { 
+    height: 40vh; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    line-height: 0px; 
+} 
+ 
+@media (max-width: 768px) { 
+    /* Seção inicial */ 
+    .container-1 { 
+        flex-direction: column; 
+        align-items: center; 
+        gap: 50px; 
+    } 
+ 
+    .bloco-banner { 
+        height: 50vh; 
+        width: 38vh; 
+    } 
+ 
+    .bloco-red { 
+        order: -1; 
+    } 
+ 
+    /* Seção nosso time */ 
+    .container-2-time { 
+        display: flex; 
+        flex-direction: column; 
+        gap: 20px; 
+    } 
+ 
+    .container-2-titulo { 
+        text-align: center; 
+    } 
+}
